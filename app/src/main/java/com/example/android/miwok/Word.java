@@ -3,7 +3,7 @@ package com.example.android.miwok;
 public class Word {
     String miwokTranslation;
     String  defaultTranslation;
-    private int imageID;
+    private int imageID = -1;
 
     public Word(String defaultTranslation1, String miwokTranslation1){
          defaultTranslation = defaultTranslation1;
