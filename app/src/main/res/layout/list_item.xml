@@ -9,9 +9,9 @@
     <ImageView
         android:id="@+id/miwok_image"
         android:layout_width="@dimen/list_item_height"
-        android:layout_height="@dimen/list_item_height"
-        android:background="#FFF7DA" />
+        android:layout_height="@dimen/list_item_height" />
     <LinearLayout
+        android:id="@+id/text_container"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="@dimen/list_item_height"
